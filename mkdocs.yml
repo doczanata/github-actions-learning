@@ -1,8 +1,7 @@
 site_name: Testing GitHub Actions in a Static site
 site_author: Doc Zanata
 site_description: The best site, for the best TW
-
-copyright: Copyright &copy; 2022 DocZanata
+copyright: Copyright &copy; 2022 DocZanata  
 
 nav:
   - Home:  
