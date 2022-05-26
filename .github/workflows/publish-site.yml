@@ -1,13 +1,13 @@
-name: learn-github-actions-demo-2
+name: publish site
 on: [push]
 jobs:
-  check-bats-version:
+  mkdocs-publish:
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@v3
-        - uses: actions/setup-node@v3
-          with:
-            node-version: '14'
-        - run: npm install -g bats
-        - run: bats -v
+        # - uses: actions/checkout@v3
+        #- uses: actions/setup-node@v3
+        #  with:
+        #    node-version: '14'
+        # - run: npm install -g bats
+        - run: mkdocs build
 
