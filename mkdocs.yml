@@ -1,1 +1,16 @@
-site_name: My Docs
+site_name: Testing GitHub Actions in a Static site
+site_author: Doc Zanata
+site_description: The best site, for the best TW
+
+copyright: Copyright &copy; 2022 DocZanata
+
+nav:
+  - Home:  
+    - About me: index.md    
+    - Collaborate:
+      - First Steps: introduction/getting-started/index.md  
+      - Create Announcements: introduction/announcements/index.md
+      - Writing Tips: introduction/writing-tips/index.md
+    - Markdown Resources:  
+      - Page Template: introduction/page-template/index.md
+      - Shortcuts: introduction/markdown-shortcuts/index.md  
