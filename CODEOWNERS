@@ -1,0 +1,27 @@
+# File required to implement default reviewers
+# Reference:
+# - https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#codeowners-syntax
+# - https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule
+# Members of this team will added as default reviewers to all PRs
+*                                                @dh-io-techdocs/esg-technical-writer
+docs/project-management/*                        @dh-io-techdocs/esg-pm-general-reviewers
+docs/project-management/one-entry/*              @dh-io-techdocs/esg-pm-one-entry-reviewers
+docs/project-management/information-security/*   @dh-io-techdocs/esg-pm-information-security-reviewers
+docs/foss/*                                      @dh-io-techdocs/esg-foss-reviewers
+docs/api-design*                                 @dh-io-techdocs/esg-api-design-reviewers
+docs/application-development/*                   @dh-io-techdocs/esg-app-development-reviewers
+docs/application-hosting/*                       @dh-io-techdocs/esg-app-hosting-reviewers
+docs/consent-management-platform/*               @dh-io-techdocs/esg-consent-management-platform-reviewers
+docs/CVE/*                                       @dh-io-techdocs/esg-pm-general-reviewers
+docs/digital-content-management/*                @dh-io-techdocs/esg-digital-content-management-reviewers
+docs/identity-access-management-iam/*            @dh-io-techdocs/esg-identity-access-management-iam-reviewers
+docs/insights-and-metrics/*                      @dh-io-techdocs/esg-insights-and-metrics-reviewers
+docs/introduction/*                              @dh-io-techdocs/esg-technical-writer
+docs/welcome/*                                   @dh-io-techdocs/esg-technical-writer
+docs/quality-assurance-gate/*                    @dh-io-techdocs/esg-quality-assurance-gate-reviewers
+docs/service-management/*                        @dh-io-techdocs/esg-service-management-reviewers
+docs/technical-architecture/*                    @dh-io-techdocs/esg-technical-architecture-reviewers
+docs/tools/*                                     @dh-io-techdocs/esg-tools-reviewers
+
+
+
